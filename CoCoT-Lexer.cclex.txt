@@ -1,0 +1,8 @@
+
+Blanks		=[:space:]+
+
+Identifier	=([:alpha:]|_)([:alnum:]|_)*
+
+Save		=<[:digit:]+>
+
+RegExp<1>	==(.*)\n

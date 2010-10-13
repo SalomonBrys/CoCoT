@@ -1,0 +1,7 @@
+The Concurrent Compiler Toolkit is a research project by Salomon BRYS at the University of Kent Canterbury.
+It aims to provide developers a way to easily create very fast multi-pass compilers by parallelizing each pass (Lexer – Parser – AST Verifications – AST Optimizations – Code Generation).
+CoCoT provides:
+A specific extended BNF that integrates concurrent parsing.
+A lexer and parser that can work concurrently.
+A specific AST builder, AST analyzer and code generator toolkit that is optimized for concurrent use and may or may not be used.
+A makefile-like toolkit that can be used to parallelize each pass on multiple files compilation.
