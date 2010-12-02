@@ -1,8 +1,12 @@
 
-Blanks		=[:space:]+
+Blanks
+	=[[:space:]]+
 
-Identifier	=([:alpha:]|_)([:alnum:]|_)*
+Identifier
+	=[[:alpha:]_][[:alnum:]_]*
 
-Save		=<[:digit:]+>
+Manipulator <CoCoT_Lexer_token_manip>
+	=<[[:alpha:]_][[:alnum:]_]*>
 
-RegExp<1>	==(.*)\n
+RegExp <CoCoT_Lexer_token_manip>
+	==.*\n
